@@ -1,8 +1,11 @@
+import logoHE from './logoHE.png'
+
 const Header = ({ course }) => {
     return (
         <>
         <div>
-            <h1> {course.title} </h1>
+            <img src={logoHE}></img>
+            <h1> {course} </h1>
         </div>
         </>
     )
