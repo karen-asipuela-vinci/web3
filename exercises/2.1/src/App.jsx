@@ -8,6 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
   const titre = 'Counter';
   const message = 'You are a master in the art of clicking !'
+  const messageOver = 'Please click on me now !'
 
   return (
     <>
@@ -21,7 +22,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <ClickCounter titre={titre} message={message} />
+        <ClickCounter titre={titre} message={message} messageOver={messageOver}/>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
